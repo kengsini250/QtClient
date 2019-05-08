@@ -21,7 +21,6 @@ public:
 private:
     Ui::MainWindow *ui;
     QTcpSocket *tcpClient;
-
     QString ipadress ;
 private slots:
     void Send_button();
